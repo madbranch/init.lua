@@ -28,6 +28,9 @@ return {
       ensure_installed = {
         "lua_ls",
         "csharp_ls",
+        "lemminx",
+        "zls",
+        "gopls",
       },
       handlers = {
         function(server_name) -- default handler (optional)
